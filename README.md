@@ -1,6 +1,6 @@
 # 双色球历史数据爬虫与分析项目 🎲
 
-[English](README_EN.md) | 中文
+[English](README_EN.md) | [中文](README.md)
 
 ## 项目简介
 
