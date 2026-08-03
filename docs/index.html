@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>LotteryDataMining</title>
+
+<style>
+
+body {
+    font-family: Arial, sans-serif;
+    max-width: 900px;
+    margin: 40px auto;
+    line-height: 1.8;
+}
+
+button {
+    padding: 8px 15px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.section {
+    display:none;
+}
+
+.active {
+    display:block;
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<h1>LotteryDataMining 🎲</h1>
+
+
+<button onclick="show('cn')">
+中文
+</button>
+
+
+<button onclick="show('en')">
+English
+</button>
+
+
+
+<div id="cn" class="section active">
+
+
+<h2>项目简介</h2>
+
+<p>
+LotteryDataMining 是一个基于 Python 的彩票数据采集、清洗和数据分析项目。
+</p>
+
+
+<h2>项目流程</h2>
+
+<p>
+数据采集 → HTML解析 → 数据清洗 → 数据分析
+</p>
+
+
+<h2>技术栈</h2>
+
+<ul>
+<li>Python</li>
+<li>Requests</li>
+<li>BeautifulSoup</li>
+<li>Pandas</li>
+</ul>
+
+
+<h2>功能</h2>
+
+<ul>
+<li>双色球历史数据爬取</li>
+<li>数据清洗</li>
+<li>CSV数据生成</li>
+<li>数据分析</li>
+</ul>
+
+
+</div>
+
+
+
+
+<div id="en" class="section">
+
+
+<h2>Project Introduction</h2>
+
+
+<p>
+LotteryDataMining is a Python-based lottery data collection,
+cleaning and data analysis project.
+</p>
+
+
+<h2>Workflow</h2>
+
+<p>
+Data Collection → HTML Parsing → Data Cleaning → Data Analysis
+</p>
+
+
+<h2>Technology Stack</h2>
+
+<ul>
+
+<li>Python</li>
+
+<li>Requests</li>
+
+<li>BeautifulSoup</li>
+
+<li>Pandas</li>
+
+</ul>
+
+
+<h2>Features</h2>
+
+<ul>
+
+<li>Lottery data crawling</li>
+
+<li>Data cleaning</li>
+
+<li>Dataset generation</li>
+
+<li>Statistical analysis</li>
+
+</ul>
+
+
+</div>
+
+
+
+<script>
+
+function show(language){
+
+document.getElementById("cn").classList.remove("active");
+
+document.getElementById("en").classList.remove("active");
+
+
+document.getElementById(language).classList.add("active");
+
+}
+
+</script>
+
+
+</body>
+
+</html>
