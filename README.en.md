@@ -1,6 +1,6 @@
 # LotteryDataMining 🎲
 
-[English](README.en.md) | [简体中文](README.zh-CN.md)
+English | [简体中文](README.md)
 
 A Python-based lottery data collection, cleaning, and data mining project.
 
